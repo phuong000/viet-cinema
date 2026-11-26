@@ -1,0 +1,7 @@
+Options -Indexes
+Require all granted
+RewriteEngine On
+# Only allow the front controller and a fixed set of static asset types.
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^assets/[a-zA-Z0-9_/-]+\.(css|js|png|jpg|jpeg|webp)$ - [L]
+RewriteRule ^ index.php [QSA,L]

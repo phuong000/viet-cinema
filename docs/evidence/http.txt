@@ -1,0 +1,58 @@
+PASS: REGRESSION HTTP home 200 without database
+PASS: REGRESSION HTTP health query JSON
+PASS: REGRESSION HTTP HEAD has empty body
+PASS: REGRESSION HTTP unknown route 404
+PASS: REGRESSION HTTP POST home 405 and Allow
+PASS: REGRESSION HTTP env inaccessible
+HTTP REGRESSION: 6/6 passed.
+PASS: HTTP placeholder /movies
+PASS: HTTP placeholder /movies/sample
+PASS: HTTP placeholder /showtimes
+PASS: HTTP placeholder /login
+PASS: HTTP placeholder /register
+PASS: HTTP placeholder /booking
+PASS: HTTP placeholder /admin/demo
+PASS: HTTP real admin denied
+PASS: HTTP unknown movie 404
+PASS: HTTP malformed URL 400
+PASS: HTTP encoded traversal 400
+PASS: HTTP Windows separator rejected
+PASS: HTTP private file blocked /config/database.example.php
+PASS: HTTP private file blocked /app/Core/Database.php
+PASS: HTTP private file blocked /database/README.md
+PASS: HTTP private file blocked /storage/cache/.gitkeep
+PASS: HTTP private file blocked /storage/logs/application.log
+PASS: HTTP private file blocked /bootstrap.php
+PASS: HTTP private file blocked /composer.json
+PASS: HTTP private file blocked /tests/Integration/router.php
+PASS: HTTP private file blocked /.git/config
+PASS: HTTP private file blocked /.env.local
+PASS: HTTP static asset /assets/css/app.css
+PASS: HTTP static asset /assets/js/app.js
+PASS: HTTP static asset POST rejected
+PASS: HTTP PHP file in assets cannot execute or leak source
+PASS: HTTP actual local session cookie flags
+PASS: HTTP security headers
+PASS: HTTP form contains CSRF token
+PASS: HTTP missing CSRF rejected
+PASS: HTTP invalid CSRF rejected
+PASS: HTTP query-string CSRF rejected
+PASS: HTTP CSRF array rejected
+PASS: HTTP cross-session CSRF rejected
+PASS: HTTP validation errors
+PASS: HTTP valid CSRF reaches placeholder
+PASS: HTTP password never reflected
+PASS: HTTP form does not grant admin
+PASS: HTTP register placeholder valid POST
+PASS: HTTP production 500 hides sensitive details
+PASS: HTTP session has no fake identity
+PASS: HTTP global CSRF guards POST
+PASS: HTTP valid body CSRF accepted for POST
+PASS: HTTP global CSRF guards PUT
+PASS: HTTP valid body CSRF accepted for PUT
+PASS: HTTP global CSRF guards PATCH
+PASS: HTTP valid body CSRF accepted for PATCH
+PASS: HTTP global CSRF guards DELETE
+PASS: HTTP valid body CSRF accepted for DELETE
+PASS: HTTP fixture HTTPS detection emits Secure cookie
+TOTAL HTTP: 56 checks passed.

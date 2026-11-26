@@ -1,0 +1,2631 @@
+{
+  "date": "2026-11-26T05:12:31.794Z",
+  "checks": [
+    {
+      "name": "Isolated Apache config syntax",
+      "pass": true
+    },
+    {
+      "name": "Apache route / => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /",
+      "pass": true
+    },
+    {
+      "name": "Apache route /movies => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /movies",
+      "pass": true
+    },
+    {
+      "name": "Apache route /movies/sample => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /movies/sample",
+      "pass": true
+    },
+    {
+      "name": "Apache route /showtimes => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /showtimes",
+      "pass": true
+    },
+    {
+      "name": "Apache route /login => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /login",
+      "pass": true
+    },
+    {
+      "name": "Apache route /register => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /register",
+      "pass": true
+    },
+    {
+      "name": "Apache route /booking => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /booking",
+      "pass": true
+    },
+    {
+      "name": "Apache route /admin/demo => 200",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /admin/demo",
+      "pass": true
+    },
+    {
+      "name": "Apache route /missing => 404",
+      "pass": true
+    },
+    {
+      "name": "Apache response no source/trace /missing",
+      "pass": true
+    },
+    {
+      "name": "Apache private /app/",
+      "pass": true
+    },
+    {
+      "name": "Apache private /config/",
+      "pass": true
+    },
+    {
+      "name": "Apache private /database/",
+      "pass": true
+    },
+    {
+      "name": "Apache private /storage/",
+      "pass": true
+    },
+    {
+      "name": "Apache private /.env",
+      "pass": true
+    },
+    {
+      "name": "Apache private /app/Core/Database.php",
+      "pass": true
+    },
+    {
+      "name": "Apache private /config/database.example.php",
+      "pass": true
+    },
+    {
+      "name": "Apache private /database/README.md",
+      "pass": true
+    },
+    {
+      "name": "Apache private /storage/logs/application.log",
+      "pass": true
+    },
+    {
+      "name": "Apache private /.git/config",
+      "pass": true
+    },
+    {
+      "name": "Apache asset /assets/css/app.css",
+      "pass": true
+    },
+    {
+      "name": "Apache asset /assets/js/app.js",
+      "pass": true
+    },
+    {
+      "name": "Apache real admin denied",
+      "pass": true
+    },
+    {
+      "name": "Apache 405 and Allow",
+      "pass": true
+    },
+    {
+      "name": "Apache malformed URI 400",
+      "pass": true
+    },
+    {
+      "name": "Apache HEAD empty body",
+      "pass": true
+    },
+    {
+      "name": "Apache cookie flags /login",
+      "pass": true
+    },
+    {
+      "name": "Apache missing CSRF /login",
+      "pass": true
+    },
+    {
+      "name": "Apache invalid CSRF /login",
+      "pass": true
+    },
+    {
+      "name": "Apache validation /login",
+      "pass": true
+    },
+    {
+      "name": "Apache session and valid CSRF /login",
+      "pass": true
+    },
+    {
+      "name": "Apache cookie flags /register",
+      "pass": true
+    },
+    {
+      "name": "Apache missing CSRF /register",
+      "pass": true
+    },
+    {
+      "name": "Apache invalid CSRF /register",
+      "pass": true
+    },
+    {
+      "name": "Apache validation /register",
+      "pass": true
+    },
+    {
+      "name": "Apache session and valid CSRF /register",
+      "pass": true
+    },
+    {
+      "name": "Apache demo forms grant no admin",
+      "pass": true
+    },
+    {
+      "name": "Apache fixture 500 hides details",
+      "pass": true
+    },
+    {
+      "name": "Apache PHP asset cannot execute or leak",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /movies",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /movies/sample",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /showtimes",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /login",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /register",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /booking",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /admin/demo",
+      "pass": true
+    },
+    {
+      "name": "Responsive 360x800 /missing",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /movies",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /movies/sample",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /showtimes",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /login",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /register",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /booking",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /admin/demo",
+      "pass": true
+    },
+    {
+      "name": "Responsive 390x844 /missing",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /movies",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /movies/sample",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /showtimes",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /login",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /register",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /booking",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /admin/demo",
+      "pass": true
+    },
+    {
+      "name": "Responsive 768x1024 /missing",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /movies",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /movies/sample",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /showtimes",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /login",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /register",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /booking",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /admin/demo",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1366x768 /missing",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /movies",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /movies/sample",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /showtimes",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /login",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /register",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /booking",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /admin/demo",
+      "pass": true
+    },
+    {
+      "name": "Responsive 1920x1080 /missing",
+      "pass": true
+    }
+  ],
+  "responsive": [
+    {
+      "viewport": "360x800",
+      "page": "home",
+      "path": "/",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "movies",
+      "path": "/movies",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "movie",
+      "path": "/movies/sample",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "showtimes",
+      "path": "/showtimes",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "login",
+      "path": "/login",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "register",
+      "path": "/register",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "booking",
+      "path": "/booking",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "admin-demo",
+      "path": "/admin/demo",
+      "status": 200,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x800",
+      "page": "error",
+      "path": "/missing",
+      "status": 404,
+      "metrics": {
+        "width": 360,
+        "height": 800,
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "home",
+      "path": "/",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "movies",
+      "path": "/movies",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "movie",
+      "path": "/movies/sample",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "showtimes",
+      "path": "/showtimes",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "login",
+      "path": "/login",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "register",
+      "path": "/register",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "booking",
+      "path": "/booking",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "admin-demo",
+      "path": "/admin/demo",
+      "status": 200,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "page": "error",
+      "path": "/missing",
+      "status": 404,
+      "metrics": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "home",
+      "path": "/",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "movies",
+      "path": "/movies",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "movie",
+      "path": "/movies/sample",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "showtimes",
+      "path": "/showtimes",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "login",
+      "path": "/login",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "register",
+      "path": "/register",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "booking",
+      "path": "/booking",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "admin-demo",
+      "path": "/admin/demo",
+      "status": 200,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "768x1024",
+      "page": "error",
+      "path": "/missing",
+      "status": 404,
+      "metrics": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "home",
+      "path": "/",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "movies",
+      "path": "/movies",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "movie",
+      "path": "/movies/sample",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "showtimes",
+      "path": "/showtimes",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "login",
+      "path": "/login",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "register",
+      "path": "/register",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "booking",
+      "path": "/booking",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "admin-demo",
+      "path": "/admin/demo",
+      "status": 200,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1366x768",
+      "page": "error",
+      "path": "/missing",
+      "status": 404,
+      "metrics": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "clientWidth": 1366,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "home",
+      "path": "/",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "movies",
+      "path": "/movies",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "movie",
+      "path": "/movies/sample",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "showtimes",
+      "path": "/showtimes",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "login",
+      "path": "/login",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "register",
+      "path": "/register",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "booking",
+      "path": "/booking",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "admin-demo",
+      "path": "/admin/demo",
+      "status": 200,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "page": "error",
+      "path": "/missing",
+      "status": 404,
+      "metrics": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "clientWidth": 1920,
+        "outside": [],
+        "header": true,
+        "footer": true,
+        "main": true,
+        "styled": true
+      },
+      "interactions": true,
+      "errors": [],
+      "failedRequests": [],
+      "resources": [
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        },
+        {
+          "path": "/assets/css/app.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/js/app.js",
+          "status": 200
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "apacheSyntax": {
+    "status": 0,
+    "output": "Syntax OK\r\n"
+  },
+  "server": {
+    "type": "Apache mod_php",
+    "address": "http://127.0.0.1:56753",
+    "documentRoot": "public/",
+    "globalConfigChanged": false
+  },
+  "browser": {
+    "name": "Google Chrome headless",
+    "version": "158.0.8127.88",
+    "playwright": "1.65.1"
+  },
+  "childProcessesStopped": true
+}

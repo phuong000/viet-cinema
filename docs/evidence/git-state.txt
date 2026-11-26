@@ -1,0 +1,39 @@
+COMMAND: git status --short --branch
+## chore/mvc-foundation
+ M README.md
+?? .env.example
+?? .gitattributes
+?? .gitignore
+?? .htaccess
+?? FOUNDATION_REPORT.md
+?? app/
+?? bootstrap.php
+?? composer.json
+?? config/
+?? database/
+?? docs/
+?? public/
+?? routes/
+?? storage/
+?? tests/
+COMMAND: git branch --show-current
+chore/mvc-foundation
+COMMAND: git remote -v
+origin	https://github.com/phuong000/viet-cinema.git (fetch)
+origin	https://github.com/phuong000/viet-cinema.git (push)
+COMMAND: git diff --stat
+ README.md | 85 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 83 insertions(+), 2 deletions(-)
+COMMAND: git diff --check
+COMMAND: git ls-files
+README.md
+COMMAND: git for-each-ref refs/heads refs/remotes
+refs/heads/chore/mvc-foundation 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/heads/develop 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/heads/main 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/remotes/origin/HEAD 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/remotes/origin/HUY 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/remotes/origin/PHUONG 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/remotes/origin/QUY 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/remotes/origin/develop 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00
+refs/remotes/origin/main 7ccc69a9f939ba10bf8ba868a1cc8cb30cb34a00

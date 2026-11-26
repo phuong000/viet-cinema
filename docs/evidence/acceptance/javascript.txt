@@ -1,0 +1,2 @@
+node --check public/assets/js/app.js
+EXIT: 0

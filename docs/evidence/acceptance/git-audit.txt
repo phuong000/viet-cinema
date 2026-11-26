@@ -1,0 +1,34 @@
+PASS: Required foundation branch
+PASS: Ignore sensitive/generated path .env
+PASS: Ignore sensitive/generated path .env.local
+PASS: Ignore sensitive/generated path .env.production
+PASS: Ignore sensitive/generated path config/database.php
+PASS: Ignore sensitive/generated path vendor/autoload.php
+PASS: Ignore sensitive/generated path node_modules/example/index.js
+PASS: Ignore sensitive/generated path composer.phar
+PASS: Ignore sensitive/generated path public/uploads/photo.jpg
+PASS: Ignore sensitive/generated path storage/uploads/file.pdf
+PASS: Ignore sensitive/generated path storage/logs/app.log
+PASS: Ignore sensitive/generated path storage/cache/sessions/sample
+PASS: Ignore sensitive/generated path file.tmp
+PASS: Ignore sensitive/generated path file.temp
+PASS: Ignore sensitive/generated path file.bak
+PASS: Ignore sensitive/generated path file.backup
+PASS: Ignore sensitive/generated path .vscode/settings.json
+PASS: Ignore sensitive/generated path .idea/workspace.xml
+PASS: Ignore sensitive/generated path .DS_Store
+PASS: Ignore sensitive/generated path Thumbs.db
+PASS: Ignore sensitive/generated path Desktop.ini
+PASS: Keep example/placeholder .env.example
+PASS: Keep example/placeholder config/database.example.php
+PASS: Keep example/placeholder storage/logs/.gitkeep
+PASS: Keep example/placeholder storage/cache/.gitkeep
+PASS: Keep example/placeholder database/migrations/.gitkeep
+PASS: Keep example/placeholder database/seeds/.gitkeep
+PASS: Tracked files contain no forbidden sensitive/generated paths
+PASS: Git tracked diff whitespace
+PASS: Candidate source scan: no private-key/cloud-token/credential-URL patterns found
+PASS: All 192 candidate files pass whitespace including untracked
+PASS: Protected refs unchanged from phase 2 baseline
+TOTAL GIT AUDIT: 32 checks passed.
+EXIT: 0
