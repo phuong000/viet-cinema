@@ -1,0 +1,14 @@
+{
+  "name": "viet-cinema/application",
+  "description": "Shared PHP MVC foundation for Viet Cinema",
+  "type": "project",
+  "require": {"php": ">=8.1", "ext-pdo": "*", "ext-session": "*"},
+  "autoload": {"psr-4": {"App\\": "app/"}},
+  "scripts": {
+    "test": "@php tests/run.php",
+    "test:http": "@php tests/Integration/http.php",
+    "test:git": "@php tests/Integration/git-audit.php --portable",
+    "test:git:phase2": "@php tests/Integration/git-audit.php",
+    "lint": "@php tests/lint.php"
+  }
+}

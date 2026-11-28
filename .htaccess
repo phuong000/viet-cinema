@@ -1,0 +1,2 @@
+# Defense in depth only. The server DocumentRoot MUST point to public/.
+Require all denied

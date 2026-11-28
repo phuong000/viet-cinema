@@ -1,0 +1,65 @@
+PASS: Home route
+PASS: MVC renders Vietnamese HTML
+PASS: Health response
+PASS: Unknown path returns 404
+PASS: Method validation and Allow header
+PASS: HEAD uses GET route
+PASS: HTML escaping
+PASS: View traversal rejected
+PASS: Duplicate route rejected
+PASS: Query string excluded from route
+PASS: Database adapter loads without connecting
+REGRESSION: 11/11 checks passed.
+PASS: PSR-4 autoload core classes
+PASS: Unknown autoload class is safe
+PASS: Route parameters
+PASS: POST registration and response status
+PASS: Literal route precedence
+PASS: Unsupported method
+PASS: Equivalent parameter route rejected
+PASS: Request input rejects arrays and reads query
+PASS: Request exposes POST data for validation
+PASS: Valid input accepted
+PASS: Invalid email and short password rejected
+PASS: Array and oversized input rejected
+PASS: Required fields rejected
+PASS: Session actually started
+PASS: Session read and write
+PASS: Flash consumed once
+PASS: Actual session cookie parameters
+PASS: HTTPS enables Secure cookie
+PASS: Explicit Secure option
+PASS: Local HTTP cookie option
+PASS: CSRF token generated and stable in session
+PASS: Missing and invalid CSRF rejected
+PASS: Global CSRF prevents POST
+PASS: CSRF token must be in body, not query string
+PASS: Valid CSRF reaches validation
+PASS: Placeholder never grants identity or role
+PASS: Real admin route denied by default
+PASS: Module placeholder /movies
+PASS: Module placeholder /movies/sample
+PASS: Module placeholder /showtimes
+PASS: Module placeholder /login
+PASS: Module placeholder /register
+PASS: Module placeholder /booking
+PASS: Module placeholder /admin/demo
+PASS: Unknown movie rejected
+PASS: Middleware pipeline order
+PASS: Authorization short circuits handler
+PASS: Authorization contract allows explicit policy in test only
+PASS: Rendered HTTP error 400
+PASS: Rendered HTTP error 403
+PASS: Rendered HTTP error 404
+PASS: Rendered HTTP error 405
+PASS: Rendered HTTP error 500
+PASS: Production exception details hidden
+PASS: Bad request exception mapping
+PASS: View layout escaping
+PASS: Missing view leaves output buffers intact
+PASS: Malformed URI rejected
+PASS: Traversal URI rejected
+PASS: Base Model uses prepare and binds untrusted input (PDO double)
+PASS: Environment respects external values
+PASS: Website renders with DB_DSN absent
+TOTAL: 63 checks passed; no database connection was opened.
